@@ -1,6 +1,6 @@
 [profile.default]
 src = "contracts"
-out = ".build"
+out = ".build/foundry"
 
 libs = ["node_modules", "lib"]
 ffi = true
