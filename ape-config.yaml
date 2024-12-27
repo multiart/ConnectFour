@@ -1,0 +1,29 @@
+name: connect-four
+
+default_ecosystem: ethereum
+
+ethereum:
+  default_network: local
+  local:
+    default_provider: test
+
+
+compiler:
+  solc:
+    version: 0.8.27
+    optimizer:
+      enabled: true
+      runs: 200
+
+dependencies:
+  - name: openzeppelin-upgradeable
+    github: OpenZeppelin/openzeppelin-contracts-upgradeable
+    version: 5.1.0
+  - name: openzeppelin
+    github: OpenZeppelin/openzeppelin-contracts
+    version: 5.1.0
+
+
+test:
+  mnemonic: test test test test test test test test test test test junk
+  number_of_accounts: 5
