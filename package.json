@@ -1,0 +1,8 @@
+{
+    "name": "connectfour",
+    "version": "0.0.1",
+    "scripts": {
+        "build-with-ape": "ape compile --force",
+        "build-with-foundry": "forge build --force"
+    }
+}
