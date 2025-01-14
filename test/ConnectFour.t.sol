@@ -2,7 +2,6 @@
 pragma solidity ^0.8.27;
 
 import {Test, console, StdCheats} from "forge-std/Test.sol";
-import "openzeppelin-foundry-upgrades/Upgrades.sol";
 import {ERC1967Proxy} from "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol";
 import "../contracts/ConnectFour.sol";
 
