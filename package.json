@@ -3,6 +3,7 @@
     "version": "0.0.1",
     "scripts": {
         "build-with-ape": "ape compile --force",
-        "build-with-foundry": "forge build --force"
+        "build-with-foundry": "forge build --force",
+        "test-with-foundry": "forge test"
     }
 }
